@@ -79,6 +79,14 @@ body, html {
 .trending-section,
 .announcement-section{
     grid-column: 2 / 3;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.announcements-container{
+    display: flex;
+    flex-direction: column;
 }
 
 
