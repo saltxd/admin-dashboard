@@ -134,6 +134,7 @@ li{
     background-color: white;
     margin: 10px;
     border-left: var(--main) 3px solid;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
 }
 
 .trending-container,
@@ -142,13 +143,14 @@ li{
     font-size: 12px;
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 5px;
 }
 
 .announcements-element,
 .trending-element{
     background-color: white;
     border: var(--main) 1px solid;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
 }
 
 .announcements-heading{
