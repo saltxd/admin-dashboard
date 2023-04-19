@@ -36,9 +36,27 @@ body, html {
 .header{
     background-color: green;
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    
 }
 
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    width: 75px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
 /* Main */
 
 .main{
@@ -91,9 +109,5 @@ body, html {
     
 }
 
-.announcements-heading{
-    font-weight: bold;
-    font-size: 12px;
-}
 
 
