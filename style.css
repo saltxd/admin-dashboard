@@ -29,6 +29,57 @@ body, html {
     border-radius: 15px;
 }
 
+/* Header */
+
+.header{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    margin-left: 10px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-left{
+    display: flex;
+}
+
+.top-right{
+    display: flex;
+}
+
+.btn{
+    width: 75px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--main);
+}
+
+input#searchresult.search-input{
+    width: 40vw;
+}
+
+.magnify-icon{
+    width: 20px;
+}
+
+form{
+    display: flex;
+}
+
 /* Sidebar */
 
 .sidebar{
@@ -70,34 +121,6 @@ li{
     gap: 10px;
 }
 
-/* Header */
-
-.header{
-    background-color: white;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    box-shadow: 0px 2px 3px rgb(175, 175, 175);
-    margin-left: 10px;
-}
-
-.top-header{
-    display: flex;
-    justify-content: space-between;
-}
-
-.bottom-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.btn{
-    width: 75px;
-    height: 30px;
-    border-radius: 15px;
-    border: none;
-    background-color: var(--main);
-}
 /* Main */
 
 .main{
@@ -105,12 +128,9 @@ li{
     grid-template-columns: 70% 30%;
     grid-template-rows: repeat(2, auto);
     gap: 5px;
+    text-align: left;
     
 }
-
-/*.main > div{
-    border: 1px var(--main) solid;
-}*/
 
 .project-display{  
     grid-row: 1 /3;
@@ -154,12 +174,14 @@ li{
     box-shadow: 0px 2px 3px rgb(175, 175, 175);
 }
 
-div.announcements-heading{
+div.announcements-heading,
+div.project-heading{
     font-weight: bold;
     padding-bottom: 0px;
 }
 
-div.announcements-text{
+div.announcements-text,
+div.project-text{
     padding-top: 0px;
 }
 
@@ -167,10 +189,11 @@ div.announcements-text{
     width: 30px;
 }
 
-.trending-element{
+div.trending-element{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0px;
 }
 
 div.trending-container{
@@ -182,9 +205,22 @@ hr {
     margin: 15px 0 15px 0;
 }
 
+h3{
+    text-align: left;
+}
 
+div.trending-text{
+    padding-top: 0px;
+}
 
+div.trending-user{
+    padding-bottom: 0px;
+    font-weight: bold;
+}
 
+div.trending-left{
+    padding-right: 0;
+}
 
 
 

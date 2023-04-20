@@ -10,6 +10,37 @@
 <body>
     <div class="container">
 
+    <!-- Header-->
+
+      <div class="header">
+        <div class="top-header">
+          <div class="top-left">
+            <form id="myform" method="get" action="#">
+                <label for="searchresult"><img class="magnify-icon" src="icons/magnify.svg" alt="magnify icon"></label>
+                <input class="search-input" type="text" id="searchresult" name="searchresult" value="">
+            </form>
+          </div>
+          <div class="top-right">
+            <img class="profile" src="icons/account-circle-outline.svg" alt="profile icon">
+            <div class="user">Morgan Oakley</div>
+          </div>
+          
+        </div>
+        <div class="bottom-header">
+            <div class="bottom-left">
+              <img class="profile" src="icons/account-circle-outline.svg" alt="profile icon">
+              <div class="user">Morgan Oakley</div>
+            </div>
+            <div class="buttons">
+              <button class="btn">New</button>
+              <button class="btn">Upload</button>
+              <button class="btn">Share</button>
+            </div>  
+        </div>
+      </div>
+
+      <!-- Sidebar-->
+
       <div class="sidebar">
         <div class="nav-heading">
             <img class="dash-image" src="icons/view-dashboard.png" alt="dashboard icon">Dashboard
@@ -33,26 +64,7 @@
         </div>
       </div>
 
-      <div class="header">
-        <div class="top-header">
-          <div class="top-left">
-            <form id="myform" method="get" action="#">
-                <label for="searchresult">Search</label>
-                <input class="search-input" type="text" id="searchresult" name="searchresult" value="">
-            </form>
-          </div>
-          <div class="top-right"><img class="profile" src="icons/account-circle-outline.svg" alt="profile icon">Morgan Oakley</div>
-          
-        </div>
-        <div class="bottom-header">
-          <div class="user"><img class="profile" src="icons/account-circle-outline.svg" alt="profile icon">Morgan Oakley</div>
-            <div class="buttons">
-              <button class="btn">New</button>
-              <button class="btn">Upload</button>
-              <button class="btn">Share</button>
-            </div>  
-        </div>
-      </div>
+      <!-- Main -->
 
       <div class="main">
 
@@ -107,19 +119,15 @@
 
         <div class="announcement-section">
             <h3 class="announcements-header">Announcements</h3>
-              <div class=" announcements-container">
-                
+              <div class=" announcements-container">                
                   <div class="announcements-heading">Site Maintenance</div>
                   <div class="announcements-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum ipsum</div>
                   <hr>
-                
                   <div class="announcements-heading">Community Share</div>
                   <div class="announcements-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum ipsum</div>
                   <hr>
-                
                   <div class="announcements-heading">Updated policy</div>
                   <div class="announcements-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum ipsum</div>
-                
             </div>
         </div>
 
@@ -127,20 +135,40 @@
             <h3 class="trending-header">Trending</h3>
                 <div class="trending-container">
                   <div class="trending-element">
-                    <div class="title"><img class="profile" src="icons/account-circle-outline.svg" alt="profile icon">@tegan</div>
-                    <div class="trending-text">World Peace Builder</div>
+                    <div class="trending-left">
+                      <div class="title"><img class="profile" src="icons/account-circle-outline.svg" alt="profile icon"></div>
+                    </div>
+                    <div class="trending-right">
+                      <div class="trending-user">@tegan</div>
+                      <div class="trending-text">World Peace Builder</div>
+                    </div>
                   </div>
                   <div class="trending-element">
-                    <div class="title"><img class="profile" src="icons/account-circle-outline.svg" alt="profile icon">@morgan</div>
-                    <div class="trending-text">Super Cool Project</div>
+                    <div class="trending-left">
+                      <div class="title"><img class="profile" src="icons/account-circle-outline.svg" alt="profile icon"></div>
+                    </div>
+                    <div class="trending-right">
+                      <div class="trending-user">@morgan</div>
+                      <div class="trending-text">Super Cool Project</div>
+                    </div>
                   </div>
                   <div class="trending-element">
-                    <div class="title"><img class="profile" src="icons/account-circle-outline.svg" alt="profile icon">@kendall</div>
-                    <div class="trending-text">Life Changing App</div>
+                    <div class="trending-left">
+                      <div class="title"><img class="profile" src="icons/account-circle-outline.svg" alt="profile icon"></div>
+                    </div>
+                    <div class="trending-right">
+                      <div class="trending-user">@kendall</div>
+                      <div class="trending-text">Life Changing App</div>
+                    </div>
                   </div>
                   <div class="trending-element">
-                    <div class="title"><img class="profile" src="icons/account-circle-outline.svg" alt="profile icon">@alex</div>
-                    <div class="trending-text">No Traffic Maker</div>
+                    <div class="trending-left">
+                      <div class="title"><img class="profile" src="icons/account-circle-outline.svg" alt="profile icon"></div>
+                    </div>
+                    <div class="trending-right">
+                      <div class="trending-user">@alex</div>
+                      <div class="trending-text">No Traffic Maker</div>
+                    </div>
                   </div>
                 </div>
         </div>
