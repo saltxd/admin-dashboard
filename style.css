@@ -79,7 +79,7 @@ div.bottom-header{
 input#searchresult.search-input{
     width: 40vw;
     background-color: var(--background);
-    border-radius: 15px;
+    border-radius: 6px;
     border: var(--main) 1px solid;
     height: 20px;
 }
