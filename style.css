@@ -108,9 +108,9 @@ li{
     
 }
 
-.main > div{
+/*.main > div{
     border: 1px var(--main) solid;
-}
+}*/
 
 .project-display{  
     grid-row: 1 /3;
@@ -144,6 +144,7 @@ li{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    background-color: white;
 }
 
 .announcements-element,
@@ -153,8 +154,13 @@ li{
     box-shadow: 0px 2px 3px rgb(175, 175, 175);
 }
 
-.announcements-heading{
+div.announcements-heading{
     font-weight: bold;
+    padding-bottom: 0px;
+}
+
+div.announcements-text{
+    padding-top: 0px;
 }
 
 .profile{
@@ -167,8 +173,13 @@ li{
     justify-content: center;
 }
 
-.trending-container{
+div.trending-container{
     font-size: 11px;
+    padding: 0px;
+}
+
+hr {
+    margin: 15px 0 15px 0;
 }
 
 
