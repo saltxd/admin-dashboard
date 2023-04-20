@@ -103,7 +103,7 @@ li{
 .main{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: repeat(2, auto);
     gap: 5px;
     
 }
@@ -156,6 +156,21 @@ li{
 .announcements-heading{
     font-weight: bold;
 }
+
+.profile{
+    width: 30px;
+}
+
+.trending-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trending-container{
+    font-size: 11px;
+}
+
 
 
 
